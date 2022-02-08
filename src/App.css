@@ -1,4 +1,143 @@
-.App {
+/* Navigation Styles*/
+.nav-bar {
+  background-color: #81a969;
+  opacity: 95%;
+  padding: 0.25rem;
+}
+
+.nav-logo {
+  width: 50px;
+  height: 50px;
+}
+/* Sets color for dropdown globe and link colors */
+a.dropdown-toggle.nav-link,
+a.nav-link {
+  color: #f8f9f0;
+}
+/*Collapsed button color change on hover*/
+button.navbar-toggler.collapsed:hover {
+  color: #f8f9f0;
+}
+/* Text decoration when nav links are clicked */
+a.nav-link:active {
+  text-decoration: underline;
+  color: #4b1615;
+  padding-bottom: 0.25rem;
+}
+/* Text decoration when nav links are hovered */
+a.nav-link:hover {
+  text-decoration: underline;
+  color: #4b1615;
+  padding-bottom: 0.25rem;
+}
+/* Decoration when hovering over dropdown item */
+a.dropdown-item:hover {
+  background-color: #d8bf9f;
+}
+/* Decoration when dropdown item is clicked */
+a.dropdown-item:active {
+  background-color: #32620e;
+  color: white;
+}
+
+/* Home-cover */
+.cover {
+  background-color: #81a969;
+  padding: 4rem;
+}
+
+.cover-logo {
+  width: 65%;
+  height: 65%;
+}
+
+/* About Us Section */
+.about-div {
+  margin: 4rem;
+  height: 100vh;
+}
+
+.plant-icon-img {
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  border-collapse: initial;
+}
+
+/* Inventory Section */
+.inventory-div {
+  height: 100vh;
+  background-color: #d8bf9f;
+}
+
+.my-custom-scrollbar {
+  position: relative;
+  height: 60%;
+  width: 60%;
+  overflow: auto;
+}
+.table-wrapper-scroll-y {
+  display: block;
+}
+
+/* Delivery Area Section */
+.delivery-div {
+  height: 100vh;
+  background-color: #81a969;
+}
+
+.delivery-areas {
+  line-height: 3rem;
+  color: #f8f9f0;
+}
+
+/* Contact Us Section */
+.contact-div {
+  height: 90vh;
+  background-color: #32620e;
+  color: #f8f9f0;
+}
+
+.plant-lineup-img {
+  width: 90%;
+  height: 100%;
+}
+
+.contact-details > h2,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Contact Form Styles */
+input.form-control,
+textarea.form-control {
+  background-color: #f8f9f0;
+}
+
+.submit-btn {
+  background-color: #f8f9f0;
+  color: #4b1615;
+  border: none;
+  border-radius: 5px;
+}
+
+.submit-btn:hover {
+  background-color: #4b1615;
+  color: #f8f9f0;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+  background-color: #81a969;
+  opacity: 95%;
+  padding: 0.5rem;
+  color: #f8f9f0;
+}
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +174,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
