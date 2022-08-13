@@ -16,7 +16,7 @@ function App() {
       <Navigation/>
           <Home/>
           <About/>
-          <Inventory/>
+          {/* <Inventory/> */}
           <Delivery/>
           <Contact/>
     </div>
