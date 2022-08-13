@@ -43,12 +43,29 @@ a.dropdown-item:active {
 /* Home-cover */
 .cover {
   background-color: #81a969;
-  padding: 4rem;
+  padding: 5.5rem;
+  /*media queries*/
+  /* @media (min-width: 480px) {
+    padding: 1rem;
+  };
+  @media (min-width: 768px) {
+    padding: 3rem;
+  } */
 }
 
+
 .cover-logo {
-  width: 65%;
-  height: 65%;
+  width: 55%;
+  height: 55%;
+  /*media queries*/
+  /* @media (min-width: 480px) {
+    width: 90%;
+    height: 90%;
+  };
+  @media (min-width: 768px) {
+    width: 70%;
+    height: 70%;
+  } */
 }
 
 /* About Us Section */
@@ -72,7 +89,11 @@ table {
   background-color: #d8bf9f;
 }
 
-.my-custom-scrollbar {
+.carousel-padding {
+  padding-bottom: 5rem;
+}
+
+/* .my-custom-scrollbar {
   position: relative;
   height: 60%;
   width: 60%;
@@ -80,7 +101,7 @@ table {
 }
 .table-wrapper-scroll-y {
   display: block;
-}
+} */
 
 /* Delivery Area Section */
 .delivery-div {

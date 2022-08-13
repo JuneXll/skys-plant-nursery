@@ -4,7 +4,8 @@ import './App.css';
 // Sections
 import Home from './components/sections/Home';
 import About from './components/sections/About';
-import Inventory from './components/sections/Inventory';
+// import Inventory from './components/sections/Inventory';
+import CarouselInventory from './components/sections/CarouselInventory'
 import Delivery from './components/sections/Delivery';
 import Contact from './components/sections/Contact';
 import Navigation from './components/Navigation';
@@ -17,6 +18,7 @@ function App() {
           <Home/>
           <About/>
           {/* <Inventory/> */}
+          <CarouselInventory/>
           <Delivery/>
           <Contact/>
     </div>
