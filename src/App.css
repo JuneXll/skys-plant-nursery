@@ -1,6 +1,14 @@
+.section-style {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Navigation Styles*/
 .nav-bar {
-  background-color: #81a969;
+  /* background-color: #81a969; */
   opacity: 95%;
   padding: 0.25rem;
 }
@@ -70,8 +78,9 @@ a.dropdown-item:active {
 
 /* About Us Section */
 .about-div {
-  margin: 4rem;
+  /* margin: 4rem; */
   height: 100vh;
+  background-color: #c7d9bc;
 }
 
 .plant-icon-img {
@@ -117,7 +126,7 @@ table {
 /* Contact Us Section */
 .contact-div {
   height: 90vh;
-  background-color: #32620e;
+  background-color: #6b6c47;
   color: #f8f9f0;
 }
 

@@ -69,7 +69,7 @@ const ContactForm = () => {
                     })}
                     />
                     {errors.name && <p>
-                        Please enter your First and Last Name</p>}
+                        Enter your First and Last Name</p>}
             </div>
             <br/>
 
@@ -87,7 +87,7 @@ const ContactForm = () => {
                       })}
                     />
                     {errors.email &&
-                    <p>Please enter a valid email</p>}
+                    <p>Enter a valid email</p>}
             </div>
             <br/>
 
@@ -106,7 +106,7 @@ const ContactForm = () => {
                         })}
                     />
                     {errors.phoneNumber &&
-                    <p>Please enter valid phone number</p>}
+                    <p>Enter valid phone number</p>}
             </div>
             <br/>
 
@@ -124,7 +124,7 @@ const ContactForm = () => {
                     })}
                     ></textarea>
                     {errors.message &&
-                    <p>Please enter a message longer than 10 characters</p>}
+                    <p>Enter a message longer than 10 characters</p>}
             </div>
             <br/>
 
