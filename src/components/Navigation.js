@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next';
+// import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
@@ -31,7 +31,7 @@ const Navigation = () => {
             {});
     let langCookie = cookie.i18next;
     const [lang, setLang] = useState(langCookie);
-    const { t } = useTranslation();
+    // const { t } = useTranslation();
 
     return (
     
@@ -41,7 +41,7 @@ const Navigation = () => {
                 </Navbar.Brand>
             <Navbar.Toggle aria-controls='navbarScroll'/>
             <Navbar.Collapse className='justify-content-around'>
-                <Nav.Link href="#about" aria-labelledby='About Us'>
+                {/* <Nav.Link href="#about" aria-labelledby='About Us'>
                     {t('nav_about')}
                 </Nav.Link>
                 <Nav.Link href="#inventory" aria-labelledby='Inventory'>
@@ -52,8 +52,8 @@ const Navigation = () => {
                 </Nav.Link>
                 <Nav.Link href="#contact-us" aria-labelledby='Contact Us'>
                     {t('nav_contact_us')}
-                </Nav.Link>
-                <NavDropdown title={worldIcon} style={{color:"#f8f9f0"}}>
+                </Nav.Link> */}
+                <NavDropdown title={worldIcon} style={{alignItems: 'flex-end', color:"#f8f9f0"}}>
                     {languages.map(({code, name, country_code})=>(
                         <NavDropdown.Item 
                             key={country_code} 

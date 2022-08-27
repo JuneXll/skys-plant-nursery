@@ -5,7 +5,7 @@ const iconImg = 'https://ik.imagekit.io/junexll/Skys_nursery/CirclePlant.png?ik-
 
 const About = () => {
     return(
-        <div id="about" className='about-div cover-container d-flex flex-column justify-content-center align-items-center'>
+        <div id="about" className='about-div'>
             <Container>
                 <Row className='d-flex justify-content-center'>
                     <Col className='col-xl-5 col-md-6 col-sm-10 col-xs-12 '>
@@ -17,7 +17,7 @@ const About = () => {
                         <div>
                             <h2>Business Hours:</h2>
                             <Table 
-                                className="table table-borderless" style={{width:'350px'}}
+                                className="table table-borderless" style={{width:'300px'}}
                                 responsive="md"
                                 size='sm'>
                                 <tbody class="table">

@@ -4,8 +4,8 @@ const coverLogo = 'https://ik.imagekit.io/junexll/Skys_nursery/MainTLogo.png?ik-
 
 const Home = () => {
     return(
-        <div id="home" className='cover d-flex h-100 flex-column mx-auto align-items-center'>
-            <img src={coverLogo} className='cover-logo' alt="Sky's Plant Nursery Logo"/>
+        <div id="home" className='cover'>
+            <img src={coverLogo} id='cover-logo' alt="Sky's Plant Nursery Logo"/>
         </div>
     )
 }

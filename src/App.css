@@ -11,6 +11,7 @@
   /* background-color: #81a969; */
   opacity: 95%;
   padding: 0.25rem;
+  justify-content: space-between;
 }
 
 .nav-logo {
@@ -51,36 +52,44 @@ a.dropdown-item:active {
 /* Home-cover */
 .cover {
   background-color: #81a969;
-  padding: 5.5rem;
-  /*media queries*/
-  /* @media (min-width: 480px) {
-    padding: 1rem;
-  };
-  @media (min-width: 768px) {
-    padding: 3rem;
-  } */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%
 }
 
-
-.cover-logo {
-  width: 55%;
-  height: 55%;
-  /*media queries*/
-  /* @media (min-width: 480px) {
-    width: 90%;
-    height: 90%;
-  };
-  @media (min-width: 768px) {
-    width: 70%;
-    height: 70%;
-  } */
+/* Mobile */
+/* @media screen and (max-width: 480px) {
+  #cover-logo {
+    max-width: 100px;
+  }
+} */
+/* Tablets */
+/* @media screen and (max-width: 768px) {
+  #cover-logo {
+    max-width: 420px;
+  }
+} */
+/* Small Screens */
+/* @media screen and (max-width: 1024px) {
+  #cover-logo {
+    max-width: 420px;
+  }
+} */
+/* Desktop & Large Screens */
+@media screen and (min-width: 1201px) {
+  #cover-logo {
+    max-width: 720px;
+  }
 }
 
 /* About Us Section */
 .about-div {
-  /* margin: 4rem; */
-  height: 100vh;
-  background-color: #c7d9bc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .plant-icon-img {
@@ -93,9 +102,16 @@ table {
 }
 
 /* Inventory Section */
-.inventory-div {
+.carousel-inventory-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   height: 100vh;
-  background-color: #d8bf9f;
+  width: 100%;
+  background-color: #9aaf8a;
+  /* background-color: #afc79e; */
 }
 
 .carousel-padding {
@@ -114,19 +130,29 @@ table {
 
 /* Delivery Area Section */
 .delivery-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-color: #81a969;
+  width: 100%;
+  background-color: #d8bf9f;
 }
 
 .delivery-areas {
   line-height: 3rem;
-  color: #f8f9f0;
+  /* color: #f8f9f0; */
 }
 
 /* Contact Us Section */
 .contact-div {
-  height: 90vh;
-  background-color: #6b6c47;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-color: #81a969;
   color: #f8f9f0;
 }
 

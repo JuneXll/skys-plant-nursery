@@ -4,7 +4,7 @@ import DeliveryMap from '../widgets/DeliveryMap';
 
 const Delivery = () => {
     return(
-        <div id="delivery" className='delivery-div cover-container d-flex flex-column justify-content-center align-items-center'>
+        <div id="delivery" className='delivery-div'>
             <Container>
                 <Row className='d-flex justify-content-between'>
                     <Col className='col-xl-8 col-md-6 col-sm-10 col-xs-12 '>

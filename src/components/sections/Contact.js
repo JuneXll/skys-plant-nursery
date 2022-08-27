@@ -3,19 +3,19 @@ import { Container } from 'react-bootstrap';
 import ContactForm from '../widgets/ContactForm';
 import Footer from '../Footer';
 
-const plantsImg = 'https://ik.imagekit.io/junexll/Skys_nursery/MainPlantLineUp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643577379733'
+// const plantsImg = 'https://ik.imagekit.io/junexll/Skys_nursery/MainPlantLineUp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643577379733'
 
 const Contact = () => {
     return (
         <div id="contact-us" >
-            <div className='contact-div cover-container d-flex flex-column justify-content-around align-items-center'>
+            <div className='contact-div'>
             {/* Contact us form */}
             <Container className="row">
                 {/* Contact info */}
                 <Container className='flex-column col-md-6 col-xs-12'>
-                    <div>
+                    {/* <div>
                         <img src={plantsImg} className='plant-lineup-img' alt='plant-line-up'/>
-                    </div>
+                    </div> */}
                     <Container className='contact-details'>
                         <h1>Sky's Plant Nursery</h1>
                         <h2>13120 Sw 202 Ave</h2>

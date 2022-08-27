@@ -8,7 +8,7 @@ import About from './components/sections/About';
 import CarouselInventory from './components/sections/CarouselInventory'
 import Delivery from './components/sections/Delivery';
 import Contact from './components/sections/Contact';
-// import Navigation from './components/Navigation';
+//import Navigation from './components/Navigation';
 
 const FullPageScrolling = () => {
     return(
@@ -18,7 +18,7 @@ const FullPageScrolling = () => {
                 <FullpageSection >
                     <Home/>
                 </FullpageSection>
-                <FullpageSection >
+                <FullpageSection style={{height:'80vh'}}>
                     <About/>
                 </FullpageSection>
                 <FullpageSection >
