@@ -59,29 +59,72 @@ a.dropdown-item:active {
   width: 100%
 }
 
+
 /* Mobile */
-/* @media screen and (max-width: 480px) {
-  #cover-logo {
-    max-width: 100px;
-  }
-} */
+@media only screen 
+  and (max-device-width: 480px) {
+    /* Cover Logos */
+    .desktop-cover-logo {
+      display: none;
+    }
+    .tablet-cover-logo{
+      display: none;
+    }
+    .mobile-cover-logo {
+      max-width: 320px;
+    }
+
+    /* About Us */
+    /* .full {
+      height:100vh;
+    }
+    .eighty {
+      display:none;
+    } */
+}
 /* Tablets */
-/* @media screen and (max-width: 768px) {
-  #cover-logo {
-    max-width: 420px;
-  }
-} */
-/* Small Screens */
-/* @media screen and (max-width: 1024px) {
-  #cover-logo {
-    max-width: 420px;
-  }
-} */
+@media only screen 
+  and (min-device-width: 481px) 
+  and (max-device-width: 768px)  {
+    /* Cover Logos */
+    .desktop-cover-logo {
+      display: none;
+    }
+    .tablet-cover-logo{
+      max-width: 420px;
+    }
+    .mobile-cover-logo {
+      display: none;
+    }
+    /* About Us */
+    /* .full {
+      display:none;
+    } */
+    .eighty {
+      height:80vh;
+    }
+}
 /* Desktop & Large Screens */
-@media screen and (min-width: 1201px) {
-  #cover-logo {
-    max-width: 720px;
-  }
+@media screen 
+  and (min-device-width: 769px) 
+  and (max-device-width: 1600px){
+    /* Cover Logos */
+    .desktop-cover-logo {
+      max-width: 720px;
+    }
+    .tablet-cover-logo{
+      display: none;
+    }
+    .mobile-cover-logo {
+      display: none;
+    }
+   /* About Us */
+   /* .full {
+      display:none;
+   }
+    .eighty {
+      height:80vh;
+    } */
 }
 
 /* About Us Section */
@@ -110,7 +153,6 @@ table {
   align-content: center;
   height: 100vh;
   width: 100%;
-  background-color: #9aaf8a;
   /* background-color: #afc79e; */
 }
 
@@ -193,41 +235,21 @@ textarea.form-control {
   padding: 0.5rem;
   color: #f8f9f0;
 }
-/* .App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+/* Mobile
+.mobile-cover-logo {
+  max-width: 400px;
+} 
+Tablets
+.tablet-cover-logo {
+  max-width: 520px;
+} 
+Small Screens
+  .small-cover-logo {
+    max-width: 600px;
+  } 
+Desktop & Large Screens
+  .large-cover-logo {
+    max-width: 720px;
+  } */

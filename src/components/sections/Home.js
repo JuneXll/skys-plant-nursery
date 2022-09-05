@@ -5,8 +5,14 @@ const coverLogo = 'https://ik.imagekit.io/junexll/Skys_nursery/MainTLogo.png?ik-
 const Home = () => {
     return(
         <div id="home" className='cover'>
-            <img src={coverLogo} id='cover-logo' alt="Sky's Plant Nursery Logo"/>
+            {/* Mobile */}
+            <img src={coverLogo} className='mobile-cover-logo' alt="Sky's Plant Nursery Logo"/>
+            {/* Tablet */}
+            <img src={coverLogo} className='tablet-cover-logo' alt="Sky's Plant Nursery Logo"/>
+            {/* Desktop */}
+            <img src={coverLogo} className='desktop-cover-logo' alt="Sky's Plant Nursery Logo"/>
         </div>
+        
     )
 }
 

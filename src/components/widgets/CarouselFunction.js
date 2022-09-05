@@ -13,7 +13,7 @@ const CarouselFunction = () => {
     <div>
       <Carousel className='carousel-padding' >
         {inventoryList.map((plant, index)=>{
-          console.log(index)
+          // console.log(index)
             return (
               <Carousel.Item interval={5000}>
                 <div>
