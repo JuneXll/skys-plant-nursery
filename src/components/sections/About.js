@@ -3,15 +3,28 @@ import { Container, Row, Col, Table } from 'react-bootstrap'
 
 const iconImg = 'https://ik.imagekit.io/junexll/Skys_nursery/CirclePlant.png?ik-sdk-version=javascript-1.4.3&updatedAt=1643577365435'
 
+// const [ imgWidth, setImgWidth ] = useState('');
+
+// const windowSize = () => {
+//     if(window.innerWidth < 480) {
+//         setImgWidth()
+//     }
+// }
+
 const About = () => {
+
+    console.log(window.innerWidth);
+
     return(
         <div id="about" className='about-div'>
             <Container>
                 <Row className='d-flex justify-content-center'>
-                    <Col className='col-xl-5 col-md-6 col-sm-10 col-xs-12 '>
-                        <img src={iconImg} className='plant-icon-img' alt='plant-icon'/>
+                    <Col className='col-lg-6 col-md-10 col-sm-12 d-flex justify-content-center align-items-center'>
+                    {
+                        window.innerWidth <= 575 ? <img src={iconImg} style={{display:'none'}} alt='plant-icon'/> : <img src={iconImg} style={{width:'50%'}} alt='plant-icon'/>
+                    }
                     </Col>
-                    <Col className='col-xl-7 col-md-6 col-sm-10 col-xs-12 d-flex flex-column justify-content-center'>
+                    <Col className='col-lg-6 col-md-10 col-sm-12 d-flex flex-column justify-content-center p-2'>
                         <h1>About Us</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                         <div>

@@ -73,14 +73,9 @@ a.dropdown-item:active {
     .mobile-cover-logo {
       max-width: 320px;
     }
-
-    /* About Us */
-    /* .full {
-      height:100vh;
-    }
-    .eighty {
+    .plant-icon-img{
       display:none;
-    } */
+    }
 }
 /* Tablets */
 @media only screen 
@@ -95,13 +90,6 @@ a.dropdown-item:active {
     }
     .mobile-cover-logo {
       display: none;
-    }
-    /* About Us */
-    /* .full {
-      display:none;
-    } */
-    .eighty {
-      height:80vh;
     }
 }
 /* Desktop & Large Screens */
@@ -118,13 +106,6 @@ a.dropdown-item:active {
     .mobile-cover-logo {
       display: none;
     }
-   /* About Us */
-   /* .full {
-      display:none;
-   }
-    .eighty {
-      height:80vh;
-    } */
 }
 
 /* About Us Section */
@@ -133,11 +114,11 @@ a.dropdown-item:active {
   justify-content: center;
   align-items: center;
   width: 100%;
+  height: 100%
 }
 
 .plant-icon-img {
-  width: 100%;
-  height: 100%;
+  width:100%
 }
 
 table {

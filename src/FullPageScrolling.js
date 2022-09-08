@@ -1,7 +1,7 @@
 import  React, { useState } from "react";
 import FullPage, {FullPageSections, FullpageSection, FullpageNavigation} from '@ap.cx/react-fullpage';
 
-
+import 'core-js';
 // // Sections
 import Home from './components/sections/Home';
 import About from './components/sections/About';
@@ -20,7 +20,9 @@ const FullPageScrolling = () => {
    }
    
     return(
-        <FullPage onChange={handleChange}>
+        <FullPage 
+        desktopForceStep={true}
+        onChange={handleChange}>
             <FullpageNavigation/>
             <FullPageSections>
                 <FullpageSection >
